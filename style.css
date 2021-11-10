@@ -35,6 +35,7 @@ ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+
 }
 
 h1, h2, h3 {
@@ -141,11 +142,19 @@ h1, h2, h3 {
 #sidebar {
 	float: left;
 	width: 312px;
+	
 }
+
+#sidebar li{
+	list-style: none;
+
+}
+
 
 #sidebar h3 {
 	color: black;
 }
+
 #sidebar .area {
 	margin: 55px 36px 0px 39px;
 }
@@ -163,6 +172,10 @@ h1, h2, h3 {
 	margin: 0px auto 40px auto;
 	font-size: 11px;
 	color: #3f4b00;
+}
+
+#footer li{
+	list-style: none;
 }
 
 .break {
